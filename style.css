@@ -1,0 +1,135 @@
+* {
+  background-color: rgb(21, 21, 48);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+}
+
+.game {
+  visibility: hidden;
+}
+
+.startGame {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  font-size: 120px;
+  letter-spacing: 3px;
+  color: #0018E5;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 5px linear-gradient(transparent, black);
+  line-height: 90px;
+  overflow: hidden;
+  outline: none;
+  animation: animate 5s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes animate {
+  0%, 18%, 20%, 30%, 50%, 60%, 65%, 80%, 90%, 92% {
+    color: #0018E5;
+    box-shadow: none;
+  }
+  18%, 20%, 30%, 50%, 60%, 65%, 80%, 90%, 92%, 100% {
+    color: white;
+    box-shadow: 
+    0 0 10px #0059FF, 
+    0 0 20px #0059FF,
+    0 0 40px #0059FF,
+    0 0 80px #0059FF, 
+    0 0 160px #0059FF;
+  }
+}
+
+.mountainsPic {
+  height: 100vh;
+  position: absolute;
+}
+
+.climberPic {
+  position: absolute;
+  top: 92%;
+  height: 70px;
+  width: 30px;
+}
+
+.winGif {
+  position: absolute;
+  width: 60px;
+  right: 370px;
+  top: 2px;
+  visibility: hidden;
+}
+
+.checkpoint {
+  width: 45px;
+  height: 3px;
+  background-color: aquamarine;
+}
+
+.one {
+  position: absolute;
+  left: 300px;
+  bottom: 60px;
+}
+
+.two {
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+}
+
+.three {
+  position: absolute;
+  left: 540px;
+  bottom: 300px;
+}
+
+.four {
+  position: absolute;
+  left: 600px;
+  bottom: 410px;
+}
+
+.five {
+  position: absolute;
+  left: 750px;
+  bottom: 585px;
+}
+
+.six {
+  position: absolute;
+  left: 840px;
+  bottom: 640px;
+}
+
+.seven {
+  position: absolute;
+  left: 1050px;
+  bottom: 600px;
+}
+
+.eight {
+  position: absolute;
+  left: 1230px;
+  bottom: 685px;
+}
+
+.nine {
+  position: absolute;
+  left: 1400px;
+  bottom: 840px;
+}
+
